@@ -1,0 +1,47 @@
+@import "dynamic-theme";
+
+html, body { height: 100%; background-color: #eee }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.drawer-container {
+  height: 100%;
+  width: 100%;
+  background-color: #eee
+}
+
+.drawer-menu {
+  width: 300px;
+  max-width: 300px;
+  .drawer-menu-content {
+    padding: 1rem;
+    .menu-item {
+      margin-left: .5rem;
+    }
+  }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  .content-container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.vertical-divider {
+  height: 100px;
+  width: 1px;
+  background-color: #eee;
+}
+
+.example-form-container {
+  width: 800px;
+}
