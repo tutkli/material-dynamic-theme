@@ -14,6 +14,6 @@ This project was generated with Angular CLI version 14.2.4.
 
 ### How it works
 
-Through the [ThemeService](https://github.com/tutkli/material-dynamic-theme/blob/master/src/app/theme.service.ts), a theme is generating using Tinycolor's algorithm, then CSS variables are set with the theme values.
+Through the [ThemeService](https://github.com/tutkli/material-dynamic-theme/blob/master/src/app/theme.service.ts), a theme is generated based on the selected color using Tinycolor's algorithm, then CSS variables are set with the theme values.
 
 The Angular Material Theme is set in the [dynamic-theme](https://github.com/tutkli/material-dynamic-theme/blob/master/src/styles/dynamic-theme.scss) file, using the CSS variable names.
